@@ -1,17 +1,9 @@
 
-<h1 align = "center">IMCOMPLETO<>
+<h1 align = "center">IMCOMPLETO</h1>
 
 <h1 align = "center" style = "border-bottom: none;"> 🔊 Demonstração de texto para fala </h1>
-<h3 align = "center"> Aplicativos de amostra Node.js que mostram alguns dos recursos do serviço IBM Watson Text to Speech. </h3>
-<p align = "center">
-  <a href="http://travis-ci.org/watson-developer-cloud/text-to-speech-nodejs">
-    <img alt = "Travis" src = "https://travis-ci.org/watson-developer-cloud/text-to-speech-nodejs.svg?branch=master">
-  </a>
-  <a href="#badge">
-    <img alt = "semantic-release" src = "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release- e10079.svg ">
-  </a>
-</p>
-</p>
+<h3 align = "center"> Alguns dos recursos do serviço IBM Watson Text to Speech. </h3>
+
 
 Text to Speech é projetado para streaming, síntese de áudio de texto. 
 
@@ -29,19 +21,22 @@ Text to Speech é projetado para streaming, síntese de áudio de texto.
 
 ## Configurando o aplicativo
 
-1. Na pasta do aplicativo, copie o arquivo * .env.example * e crie um arquivo chamado * .env *
+### Banco de dados
+
+1. Na pasta do aplicativo, edite o arquivo * .env * e crie um arquivo chamado * .env * com suas credenciais para logar em um bando de dados local (Mysql).
 
     `` `
     cp .env.example .env
     `` `
+### Text to Speech (Ainda não funcionando!)
 
-2. Abra o arquivo * .env * e inclua as credenciais de serviço obtidas na etapa anterior.
+1. Abra o arquivo * .env * e inclua as credenciais de serviço seguindo o seguinte [procedimento](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-gettingStarted#getting-started-tutorial) .
 
     Exemplo de arquivo * .env * que configura o `apikey` e o` url` para uma instância de serviço Text to Speech hospedada na região leste dos EUA:
 
     `` `
-    TEXT_TO_SPEECH_IAM_APIKEY = X4rbi8vwZmKpXfowaS3GAsA7vdy17Qh7km5D6EzKLHL2
-    TEXT_TO_SPEECH_URL = https: //gateway-wdc.watsonplatform.net/text-to-speech/api
+    TEXT_TO_SPEECH_IAM_APIKEY = key
+    TEXT_TO_SPEECH_URL = url
     `` `
 
 ## Executando localmente
