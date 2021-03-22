@@ -23,8 +23,7 @@ Text to Speech é projetado para streaming, síntese de áudio de texto.
 
 ### Banco de dados
 
-1. Na pasta do aplicativo, edite o arquivo * .env * e crie um arquivo chamado * .env * com suas credenciais para logar em um bando de dados local (Mysql).
-
+1. Na pasta do aplicativo, edite o arquivo * .env * e crie um arquivo chamado * .env * com suas credenciais para logar em um banco de dados local (Mysql).
     `` `
     cp .env.example .env
     `` `
