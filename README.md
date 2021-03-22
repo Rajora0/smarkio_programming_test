@@ -57,18 +57,19 @@ Text to Speech é projetado para streaming, síntese de áudio de texto.
 
 ## Estrutura do diretório
 
-`` `nenhum
-.
-├── app.js // rotas expressas
-├── database // configuração banco de dados
-|   ├── createData
-├── package.json
-├── public // recursos estáticos
-├── views // handlebars
-│ ├── layouts
-| |   ├── main
-│ ├── index
-`` `
+
+    `` `
+    ├── app.js // rotas expressas
+    ├── database // configuração banco de dados
+    |   ├── createData
+    ├── package.json
+    ├── public // recursos estáticos
+    ├── views // handlebars
+    │ ├── layouts
+    | |   ├── main
+    │ ├── index
+    `` `
+    
 ## Observações 
 
 Este projeto se encontra imcopleto. 
