@@ -26,8 +26,8 @@ Text to Speech é projetado para streaming, síntese de áudio de texto.
 
 1. Abra o arquivo * .env * e inclua as credenciais de serviço seguindo o seguinte [procedimento](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-gettingStarted#getting-started-tutorial) .
 
-    Exemplo de arquivo * .env * que configura o `apikey` e o` url` para uma instância de serviço Text to Speech hospedada na região leste dos EUA:
-
+    Exemplo de arquivo * .env * que configura o `apikey` e o` url` para uma instância de serviço Text to Speech hospedada na região leste dos EUA:`
+    
     `` `
     API_KEY = key
     API_URL = url
@@ -86,5 +86,5 @@ Este projeto se encontra incompleto faltou a integração das views com a API, m
     - Integrar API|IBM e views.
 
 ## Referencias
-[página do IBM Github] (http://ibm.github.io/)
-[demo_url]: https://text-to-speech-demo.ng.bluemix.net
+    - [página do IBM Github] (http://ibm.github.io/)
+    - [demo_url]: https://text-to-speech-demo.ng.bluemix.net
