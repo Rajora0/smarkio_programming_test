@@ -5,8 +5,21 @@
     <input class="send" type="submit" value="Cadastrar" >
 </form> 
 
+<script>
+function myFunction() {
+  console.log('oi')
+}
+</script>
 
-{{#each Data}}
-    <li>{{this}}</li>
-{{/each}}
+<div class="bloco_r">
+    <nav>
+        <ul>
+            {{#each Texts}}
+                <li>{{phrase}}</li>
+                <button method="">Ouvir</button>
+                <br>
+            {{/each}}
+        </ul>
+    </nav>
+</div>
 

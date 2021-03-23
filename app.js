@@ -23,31 +23,26 @@ app.set('view engine', 'handlebars')
 
 // routers
 
-/* app.get('/', (req, res) => {
-    res.render('index')
-})
- */
-
-
-
 app.post('/', (req, res) => {
     
     // catch form
     Database.create({
         phrase: req.body.phrase})
         .then(() => {
-        console.log(req.body.phrase)})
+            Database.findAll({raw : true}).then(data => {
+            res.render('index',{Texts: data})
+    
+        })})
         .catch((err) => {
         console.log(err)})
-        res.render('index')
 })
 
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
  
-    Database.findAll().then(data => {
-        res.render('index',{Data: data})
+    Database.findAll({raw : true}).then(data => {
+        res.render('index',{Texts: data})
 
     })
-})
+}) */
 
 app.listen(8080)

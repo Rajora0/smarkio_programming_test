@@ -1,3 +1,15 @@
+nav ul{
+    height:200px; 
+    width:90%;
+}
+nav ul{
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+li {
+    margin: 10px 20px 20px 10px
+}
+
 body {
     background-color:lightgray;
   }
@@ -9,11 +21,17 @@ body {
 }
 
 .bloco_r {
-    width: 380px;
+    width: 600px;
     float: right;
-    margin: 150px 50px 50px 100px;
+    margin: 150px 0 0 30px;
 }
 
+button {
+    float: right;
+    margin: 0 100px 0 0;
+    background:lightslategray;
+    border-radius: 5px;
+}
 .send {
     width: 100%;
     padding: 15px 0;
